@@ -1,0 +1,7 @@
+User: pcbalphasite
+Password: example.passW0rd
+Record ID: 91012345
+Minutes: 3
+Last IP: 1.1.1.1
+Exit: False
+Use SSL: False
