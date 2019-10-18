@@ -1,0 +1,24 @@
+Procedure RegInfoBBS;
+Begin
+   Window(1,1,80,25);
+   Box(5, 7, 18, 68, $1B, NoBorder, #32);
+   HtWriteC( 3,40,PopupTitleColor,' Professional BBS v16 Author Information ');
+   HtWrite( 5,7,$1E,LanguageString(1));
+   HtWrite( 6,7,$1E,LanguageString(2));
+   HtWrite( 7,7,$1E,LanguageString(3));
+   HtWrite( 8,7,$1E,LanguageString(4));
+   HtWrite(10,10,$1F,'Brain Patchwork DX, LLC.');
+   HtWrite(10,43,$1F,'Modern Pascal Solutions, LLC.');
+   HtWrite(11,10,$1F,'435 Cedar Glen Cir.');
+   HtWrite(11,43,$1F,'2616 Sorrel Ridge Rd.');
+   HtWrite(12,10,$1F,'East Ridge, Tennessee 37412');
+   HtWrite(12,43,$1F,'Crestview, Florida 32536');
+   HtWrite(14,24,$1B,'Fidonet     1:1/123.0');
+   HtWrite(15,24,$1B,'FSXNet      21:1/144.0');
+   HtWrite(16,24,$1B,'Online      http://www.bpdx.com/');
+   HtWrite(17,24,$1B,'CodeRunner  http://www.modernpascal.com/');
+   HtWrite(18,24,$1B,'eMail       ozznixon@gmail.com');
+   HtWriteC(20,40,$1A,__Build__);
+   HtWrite(23,6,ArrowInstructions,Center(LanguageString(6),70,#32));
+   OKButton(21, 65);
+End;
